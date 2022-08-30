@@ -14,12 +14,14 @@
 (import ./inlines/link)
 (import ./inlines/hardbreak)
 (import ./inlines/rawhtml)
+(import ./inlines/tag)
 
 
 (array/push inline
   :codespan
   :rawhtml
   :autolink
+  :tag
   :hardbreak
   :emphasis
   :link
@@ -60,6 +62,7 @@
 (add-to grammar hardbreak/grammar)
 (add-to grammar link/grammar)
 (add-to grammar rawhtml/grammar)
+(add-to grammar tag/grammar)
 
 
 ## Inline functions

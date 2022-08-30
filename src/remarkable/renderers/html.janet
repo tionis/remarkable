@@ -73,6 +73,9 @@
           (buffer/push buf (render-inline child))))
       (buffer/push buf "</a>"))
 
+    :tag
+     (buffer/push buf "<span style=\"color: #090FFF\">" (get attrs :name) "</span>")
+
     :rawhtml
     (buffer/push buf children)
 
