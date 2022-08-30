@@ -5,7 +5,7 @@
   :license "MIT"
   :url "https://github.com/pyrmont/remarkable"
   :repo "git+https://github.com/pyrmont/remarkable"
-  :dependencies ["https://github.com/janet-lang/json.git"])
+  :dependencies ["https://github.com/janet-lang/spork.git"])
 
 
 (declare-executable

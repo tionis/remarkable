@@ -1,4 +1,4 @@
-(import json)
+(import spork/json)
 
 
 (def input "entities.json") # https://html.spec.whatwg.org/entities.json

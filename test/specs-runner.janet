@@ -1,4 +1,4 @@
-(import json)
+(import spork/json)
 (import ../src/remarkable :as mark)
 
 
