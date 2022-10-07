@@ -74,7 +74,7 @@
       (buffer/push buf "</a>"))
 
     :tag
-     (buffer/push buf "<span style=\"color: #090FFF\">" (get attrs :name) "</span>")
+     (buffer/push buf "#" (get attrs :name))
 
     :rawhtml
     (buffer/push buf children)
